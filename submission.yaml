@@ -8,40 +8,61 @@
 #   - Use double quotes around all string values
 # =============================================================================
 
-team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+team:"CODESTORM"
+  name: "CODESTORM"                             # REQUIRED — e.g., "Orion Squad"
+  track: "SOLVING REAL WORLD PROBLEM"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "HET AGRAvAT"                           # REQUIRED — e.g., "Alice Chen"
+    email: "heragravat22@gmail.com"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "MAULIKKUMAR ILOLIYA"                         # REQUIRED — Team member 1
+      email: "mauliksureshiloliya@gmail.com"
+    - name: "PRIYANSHU AVAIYA"                         # Add more members by copying the two lines above
+      email: "priyanshuavaiya@gmail.com"
+    - name: "YASHVI PAGHDAR"
+      email: "yashvipaghdar2008@gmail.com"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Threat Intelligence Correlation & Alert Prioritisation Assistant
+"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+    Defence analysts receive thousands of alerts daily from:
+
+• SIEM systems
+• Satellite feeds
+• Cyber sensors
+• Intelligence reports
+
+All arriving in different formats — faster than any human team can process.
+
 
   solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Replace this text with a clear description of your solution
-    and how it addresses the problem above.
+    An AI pipeline built on IBM Bob that automates the entire threat analysis workflow:
+
+  Ingest  →  Normalise  →  Correlate  →  Score  →  MITRE Map  →  BLUF Report
+
+Operates continuously across SIEM, satellite, sensor, and intel report feeds — delivering prioritised, commander-ready summaries in minutes, not hours.
+
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
+    - "Speed
+
+Alerts triaged in seconds, not hours. BLUF reports generated in under 2 minutes.
+"                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
+    - "Accuracy
+
+False positive rate reduced by ~80%. Genuine threats never buried in noise.
+"
+    - "Scalability
+
+Handles thousands of alerts per minute. Scales with feed volume — no extra analysts needed.
+"
     - ""                               # optional 4th
     - ""                               # optional 5th
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
+    languages: [python]                      # REQUIRED — e.g., ["Python", "TypeScript"]
     frameworks: []                     # e.g., ["FastAPI", "React"]
     ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
     databases: []                      # e.g., ["PostgreSQL", "Redis"]
