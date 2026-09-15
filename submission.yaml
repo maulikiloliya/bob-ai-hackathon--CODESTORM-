@@ -12,7 +12,7 @@ team:"CODESTORM"
   name: "CODESTORM"                             # REQUIRED — e.g., "Orion Squad"
   track: "SOLVING REAL WORLD PROBLEM"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: "HET AGRAvAT"                           # REQUIRED — e.g., "Alice Chen"
+    name: "HET AGRAVAT"                           # REQUIRED — e.g., "Alice Chen"
     email: "heragravat22@gmail.com"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
     - name: "MAULIKKUMAR ILOLIYA"                         # REQUIRED — Team member 1
@@ -24,9 +24,9 @@ team:"CODESTORM"
 
 submission:
   title: "Threat Intelligence Correlation & Alert Prioritisation Assistant
-"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+"                           
 
-  problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
+  problem_statement: >               
     Defence analysts receive thousands of alerts daily from:
 
 • SIEM systems
